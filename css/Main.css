@@ -61,6 +61,7 @@ p{
 }
 
 a{
+	color: #0C6D62;
 	text-decoration: #870000 underline; /* from https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
 	font-style: italic;
 }
@@ -72,28 +73,36 @@ img{
 	margin-bottom: 1rem;
 }
 
-section.hero {
+.hero {
 	display:flex;
 	margin-bottom: 1rem;
 	max-height:80vh;
-	height:80vh;
-	background-image:url("../img/Mountain_Safety_Banner\(1728x885\).jpg");
+	 /* - background-image:url("../img/Mountain_Safety_Banner\(1728x885\).jpg"); - */
 	background-repeat:no-repeat;
 	background-size:contain;
 	align-items: flex-end;
+	position: relative;
 } /* -Source:Chairs of Gio Ponti, in class workshop - */
 
 .hero-text{
 	color:white;
 	width:60%;
-	padding:.5rem;
 	margin-left:2rem;
 	min-width:6rem;
-    position: absolute ;
+    position: absolute;
+}
+
+.content{
+	display: flex;
+	align-items: center;
+	padding: 3rem;
+}
+
+.content p {
+	color: #0C6D62;
 }
 
 main {
-	padding: 1rem;
 	margin: 0 auto;
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr 1fr; /* - one way to set it up- */
@@ -101,12 +110,10 @@ main {
 	grid-gap: 1em;
 }
 
-main section{
-	background-color: #F9F8F6;
-	padding: 2rem;
-	border-radius: 0.5rem;
-	box-shadow:-0.25rem 0.25rem 0.5rem hsl(0, 0%, 51%); /* ---HSL and how to use it extract from Refactoring UI (2018), Steve Schoger and Adam Wathan, page 96.--- */
-	/* ------ add inset the the beginning is for inner shadow, learned in class------- */
+
+#intro{
+	padding: 1rem;
+
 }
 
 /* ------ Grid content------- */
@@ -116,6 +123,7 @@ main section{
 
 .three-column{
 	grid-column:auto / span 3;}
+
 
     /* ------ Nav------- */
     nav{
@@ -168,5 +176,19 @@ img {
     margin-right: 20px;
     }
 
+.socialmedia{
+	margin-top: 1rem;
+	margin-bottom: 1rem;	
+}
+
+#AvalancheSafety {
+	background-color: #F2EDE7;
+	padding: 2rem;
+}
+
+.Avalanche
+{display: flex;
+	justify-content: center;
+}
 
 
