@@ -76,7 +76,6 @@ img{
 	display:flex;
 	margin-bottom: 1rem;
 	max-height:80vh;
-	 /* - background-image:url("../img/Mountain_Safety_Banner\(1728x885\).jpg"); - */
 	background-repeat:no-repeat;
 	background-size:contain;
 	align-items: flex-end;
