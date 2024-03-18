@@ -157,6 +157,7 @@ footer{
 footer p {
     font-size: 12px;
     color: white;
+	display: flex;
 }
 
 img {
