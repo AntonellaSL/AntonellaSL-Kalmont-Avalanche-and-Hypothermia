@@ -19,8 +19,8 @@ h1, h2, h3, p, a{
 }
 
 h1{ margin-top: 0;
-	margin-bottom: 1rem;
-	font-size:4rem;
+	margin-bottom: 3rem;
+	font-size:3rem;
 	font-family: "Noto Serif", serif;
 	font-optical-sizing: auto;
 	color:#ffffff;
@@ -73,12 +73,14 @@ img{
 }
 
 section.hero {
-	margin-bottom:1rem;
+	display:flex;
+	margin-bottom: 1rem;
 	max-height:80vh;
 	height:80vh;
 	background-image:url("../img/Mountain_Safety_Banner\(1728x885\).jpg");
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:contain;
+	align-items: flex-end;
 } /* -Source:Chairs of Gio Ponti, in class workshop - */
 
 .hero-text{
@@ -128,7 +130,7 @@ main section{
 		top:0;
 		z-index: 100;
         background-image: linear-gradient(white, transparent); /* -Source:https://w3schools.com/css/css3_gradients.asp - */
-        padding: 0.5em 0.em;
+        padding: 1rem 0.em;
 		}
 
         nav a{
@@ -136,7 +138,7 @@ main section{
 			color:#400000;
 			font-size:1rem;
 			text-decoration:none;
-			padding:0.25em 0.45em;
+			padding:1rem 0.45em;
 			margin:0;
 			flex-grow:1;
 			flex-shrink:1;
@@ -157,7 +159,7 @@ footer{
 footer p {
     font-size: 12px;
     color: white;
-	display: flex;
+	display: ;
 }
 
 img {
