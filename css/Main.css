@@ -55,7 +55,7 @@ p, ul, ol, figure {
 p{
 	margin-top: 0;
 	font-size: 1rem;
-	color: #e6ff08;
+	color: #400000;
 	width:clamp(80%, 80%, 100%) /* boundaries to sizing. The function takes three parameters: a minimum value, a preferred value, and a maximum allowed value.
 	https://developer.mozilla.org/en-US/docs/Web/CSS/clamp */
 }
