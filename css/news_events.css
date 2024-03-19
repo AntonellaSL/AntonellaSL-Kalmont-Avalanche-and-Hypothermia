@@ -146,16 +146,19 @@ nav a:hover{
 			color: #0C6D62;
 		}
 
-		/* ------ footer -------- */
+/* ------ footer -------- */
 footer{
-			background-color:#870000;
-			margin-top: 0px;
-			padding: 1rem;
-		}
+	background-color:#870000;
+	display: flex;
+	flex-direction: column;
+	margin-top: 0px;
+	padding: 1rem;
+	}
 
 footer p {
     font-size: 12px;
     color: white;
+	display: ;
 }
 
 img {
