@@ -56,7 +56,6 @@ p{
 	margin-top: 0;
 	font-size: 1rem;
 	color: #400000;
-	width:clamp(80%, 80%, 100%) /* boundaries to sizing. The function takes three parameters: a minimum value, a preferred value, and a maximum allowed value.
 	https://developer.mozilla.org/en-US/docs/Web/CSS/clamp */
 }
 
@@ -99,6 +98,7 @@ img{
 
 .content p {
 	color: #0C6D62;
+	padding: 1rem;
 }
 
 main {
@@ -121,48 +121,57 @@ main {
 	grid-column:1 / 8;}
 
 .three-column{
-	grid-column:auto / span 3;}
+	grid-column:auto / span 3;
+}
 
 
-    /* ------ Nav------- */
-    nav{
-		display:flex;
-        position: fixed;
-		font-family: "Inter", sans-serif;
-		font-weight: bold;
-		font-style: normal;
-		width: 100%;
-		align-items:center;
-		top:0;
-		z-index: 100;
-        background-image: linear-gradient(white, transparent); /* -Source:https://w3schools.com/css/css3_gradients.asp - */
-        padding: 1rem 0.em;
-		}
+/* ------ Nav------- */
 
-        nav a{
-			display:inline-block;
-			color:#400000;
-			font-size:1rem;
-			text-decoration:none;
-			padding:0.25em 0.45em;
-			margin:0;
-			flex-grow:1;
-			flex-shrink:1;
-			flex-basis:auto;
-		}
+
+nav{
+	display:flex;
+	width: 100%;
+    position: fixed;
+	font-family: "Inter", sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	align-items:center;
+	top:0;
+	z-index: 100;
+	text-align: right;
+	padding: 1rem;
+    background-image: linear-gradient(white, transparent); /* -Source:https://w3schools.com/css/css3_gradients.asp - */
+	}
+
+	nav a{
+		display:inline-block;
+		color:#400000;
+		font-size:1rem;
+		text-decoration:none;
+		padding:0.25em 0.45em;
+		margin:0;
+		flex-grow:1;
+		flex-shrink:1;
+		flex-basis:auto;
+		text-align: center;
+	}
 
 nav a:hover{
-			color: #0C6D62;
+		color: #0C6D62;
 		}
 
-		/* ------ footer -------- */
+strong{
+	color: #0C6D62;
+}
+		
+/* ------ footer -------- */
 footer{
-			background-color:#870000;
-			display: flex;
-			flex-direction: column;
-			margin-top: 0px;
-			padding: 1rem;
-		}
+	background-color:#870000;
+	display: flex;
+	flex-direction: column;
+	margin-top: 0px;
+	padding: 1rem;
+	}
 
 footer p {
     font-size: 12px;
@@ -182,12 +191,42 @@ img {
 
 #AvalancheSafety {
 	background-color: #F2EDE7;
+	padding: 3rem;
+	
+}
+
+.Avalanche{
+	display: flex;
+	justify-content:flex-start;
+	margin-top: 2rem;
+}
+
+#avalanche.content{
+color: #0C6D62;
+}
+
+#RiskLevels{
+	background-image: url(../img/Risk_Levels\(1728x1215\).jpg);
+	background-size: cover;
 	padding: 2rem;
 }
 
-.Avalanche
-{display: flex;
-	justify-content: center;
+#Hypothermia{
+	background-color: #400000;
+	padding: 2rem;
 }
+
+#Hypothermia p{
+	color: white;
+}
+
+.RiskLevelsContent{
+	display: flex;
+	background-color: #F2EDE7;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+
 
 
