@@ -92,7 +92,6 @@ img{
 
 main {
 	padding: 1rem;
-	margin: 0 auto;
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr 1fr; /* - one way to set it up- */
 	grid-template-rows:repeat(3, auto) ; /* - short vertion- */
