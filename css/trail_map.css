@@ -19,8 +19,8 @@ h1, h2, h3, p, a{
 }
 
 h1{ margin-top: 0;
-	margin-bottom: 1rem;
-	font-size:4rem;
+	margin-bottom: 3rem;
+	font-size:3rem;
 	font-family: "Noto Serif", serif;
 	font-optical-sizing: auto;
 	color:#ffffff;
@@ -72,23 +72,22 @@ img{
 	margin-bottom: 1rem;
 }
 
-section.hero {
-	margin-bottom:1rem;
+.hero {
+	display:flex;
+	margin-bottom: 1rem;
 	max-height:80vh;
-	height:80vh;
-	background-image:url("../img/TrailMap_Banner.jpg");
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:contain;
+	align-items: flex-end;
+	position: relative;
 } /* -Source:Chairs of Gio Ponti, in class workshop - */
 
 .hero-text{
 	color:white;
 	width:60%;
-	padding:.5rem;
 	margin-left:2rem;
 	min-width:6rem;
     position: absolute ;
-	align-items: flex-end;
 }
 
 main {
@@ -147,16 +146,19 @@ nav a:hover{
 			color: #0C6D62;
 		}
 
-		/* ------ footer -------- */
+/* ------ footer -------- */
 footer{
-			background-color:#870000;
-			margin-top: 0px;
-			padding: 1rem;
-		}
+	background-color:#870000;
+	display: flex;
+	flex-direction: column;
+	margin-top: 0px;
+	padding: 1rem;
+	}
 
 footer p {
     font-size: 12px;
     color: white;
+	display: ;
 }
 
 img {
