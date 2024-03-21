@@ -121,36 +121,38 @@ main {
 .three-column{
 	grid-column:auto / span 2;}
 
-    /* ------ Nav------- */
-    nav{
+	nav{
 		display:flex;
-        position: fixed;
+		width: 100%;
+		position: fixed;
 		font-family: "Inter", sans-serif;
 		font-weight: bold;
 		font-style: normal;
-		width: 100%;
 		align-items:center;
 		top:0;
 		z-index: 100;
-        background-image: linear-gradient(white, transparent); /* -Source:https://w3schools.com/css/css3_gradients.asp - */
-        padding: 0.5em 0.em;
+		text-align: right;
+		padding: 1rem;
+		background-image: linear-gradient(white, transparent); /* -Source:https://w3schools.com/css/css3_gradients.asp - */
 		}
-
-        nav a{
-			display:inline-block;
-			color:#400000;
-			font-size:1rem;
-			text-decoration:none;
-			padding:0.25em 0.45em;
-			margin:0;
-			flex-grow:1;
-			flex-shrink:1;
-			flex-basis:auto;
+	
+	nav a{
+		display:inline-block;
+		color:#400000;
+		font-size:1rem;
+		text-decoration:none;
+		padding:0.25em 0.45em;
+		margin:0;
+		flex-grow:1;
+		flex-shrink:1;
+		flex-basis:auto;
+		text-align: center;
 		}
-
-nav a:hover{
-			color: #0C6D62;
+	
+	nav a:hover{
+		color: #0C6D62;
 		}
+	
 
 /* ------ footer -------- */
 footer{
