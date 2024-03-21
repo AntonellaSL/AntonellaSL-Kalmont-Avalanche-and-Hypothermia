@@ -105,12 +105,12 @@ main {
 	grid-gap: 1em;
 }
 
-main section{
-	background-color: #d1ac64;
+.mainEvent section{
+	background-color:#F9F8F6;
 	padding: 2rem;
 	border-radius: 0.5rem;
-
-	/* ------ add inset the the beginning is for inner shadow, learned in class------- */
+	box-shadow:-0.25rem 0.25rem 0.5rem hsl(168, 70%, 12%); /* ---HSL and how to use it extract from Refactoring UI (2018), Steve Schoger and Adam Wathan, page 96.--- */
+	/* ------ add inset the the beginning is for inner shadow------- */
 }
 
 /* ------ Grid content------- */
