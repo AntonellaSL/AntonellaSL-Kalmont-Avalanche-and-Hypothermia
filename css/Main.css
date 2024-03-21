@@ -6,8 +6,6 @@
 
 body { 
 	font-family: "Inter", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: light;
 	font-style: normal;
 	background-color:#ffffff;
 	margin: 0;
@@ -29,9 +27,9 @@ h1{ margin-top: 0;
 
 h2{
 	margin-top:0;
-	font-family: "Inter", sans-serif;
+	font-family: "Noto Serif", serif;
     font-weight: bold;
-	font-size: 1.5 rem;
+	font-size: 2rem;
 	color:#0C6D62;
 	margin-bottom: 1rem;
     position: ;
@@ -41,7 +39,7 @@ h3{
 	margin-top:0;
 	font-family: "Inter", sans-serif;
     font-weight: bold;
-	font-size: 1 rem;
+	font-size: 1rem;
 	color:#0C6D62;
 	margin-bottom: 1rem;
 }
@@ -70,6 +68,19 @@ img{
 	height:auto;
 	max-width:100%;
 	margin-bottom: 1rem;
+}
+
+.cta-main {
+	display: inline-block;
+	padding: 0.5rem;
+	color: white;
+	text-decoration: none;
+	background: #0C6D62;
+	border-radius: 0.25rem;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+	box-shadow:-0.15rem 0.15rem 0.5rem hsl(168, 8%, 13%); /* ---HSL and how to use it extract from Refactoring UI (2018), Steve Schoger and Adam Wathan, page 96.--- */
+
 }
 
 .hero {
@@ -101,18 +112,17 @@ img{
 	padding: 1rem;
 }
 
-main {
+ main {
 	margin: 0 auto;
 	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr; /* - one way to set it up- */
-	grid-template-rows:repeat(3, auto) ; /* - short vertion- */
+	grid-template-columns:1fr 1fr 1fr 1fr; 
+	grid-template-rows:repeat(3, auto) ; 
 	grid-gap: 1em;
 }
 
 
 #intro{
-	padding: 1rem;
-
+	padding: 2rem;
 }
 
 /* ------ Grid content------- */
@@ -143,26 +153,26 @@ nav{
     background-image: linear-gradient(white, transparent); /* -Source:https://w3schools.com/css/css3_gradients.asp - */
 	}
 
-	nav a{
-		display:inline-block;
-		color:#400000;
-		font-size:1rem;
-		text-decoration:none;
-		padding:0.25em 0.45em;
-		margin:0;
-		flex-grow:1;
-		flex-shrink:1;
-		flex-basis:auto;
-		text-align: center;
+nav a{
+	display:inline-block;
+	color:#400000;
+	font-size:1rem;
+	text-decoration:none;
+	padding:0.25em 0.45em;
+	margin:0;
+	flex-grow:1;
+	flex-shrink:1;
+	flex-basis:auto;
+	text-align: center;
 	}
 
 nav a:hover{
-		color: #0C6D62;
-		}
+	color: #0C6D62;
+	}
 
 strong{
 	color: #0C6D62;
-}
+	}
 		
 /* ------ footer -------- */
 footer{
@@ -192,13 +202,18 @@ img {
 #AvalancheSafety {
 	background-color: #F2EDE7;
 	padding: 3rem;
-	
+	display: flex;
+	align-items: center;
 }
 
-.Avalanche{
+div.Avalanche{
 	display: flex;
 	justify-content:flex-start;
-	margin-top: 2rem;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ffffff;
+	padding: 2rem;
+
 }
 
 #avalanche.content{
@@ -213,7 +228,7 @@ color: #0C6D62;
 
 #Hypothermia{
 	background-color: #400000;
-	padding: 2rem;
+	padding: 4rem;
 }
 
 #Hypothermia p{
@@ -222,9 +237,17 @@ color: #0C6D62;
 
 .RiskLevelsContent{
 	display: flex;
-	background-color: #F2EDE7;
 	padding: 1rem;
 	margin: 1rem;
+}
+
+.container{
+	display:flex;
+	flex-direction: column;
+	margin: 1rem;
+	background-color: #f2ede7b1;
+	padding: 1rem;
+	border-radius: 0.25rem;
 }
 
 
