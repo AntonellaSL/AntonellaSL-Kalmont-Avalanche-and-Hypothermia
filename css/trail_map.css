@@ -148,13 +148,14 @@ footer p {
 	display: ;
 }
 
-img {
-    float: left;
-    margin-right: 20px;
-    }
-
 #TrailMap{
 	background-color: #F2EDE7;
+	padding: 3rem;
+}
+
+img{
+	display: flex;
+	justify-content: center;
 }
 
 
