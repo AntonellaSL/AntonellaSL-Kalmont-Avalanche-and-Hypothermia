@@ -72,26 +72,9 @@ a {
   font-style: italic;
 }
 
-/* ALWAYS add this to make images responsive! Learned in class*/
-img {
-  height: auto;
-  max-width: 100%;
-  margin-bottom: 1rem;
-}
 
-.cta-main {
-  display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  text-decoration: none;
-  background: #0c6d62;
-  border-radius: 0.25rem;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-  box-shadow: -0.15rem 0.15rem 0.5rem hsl(168, 8%, 13%); /* ---HSL and how to use it extract from Refactoring UI (2018), Steve Schoger and Adam Wathan, page 96.--- */
-}
 
-.hero {
+.mountain-safety-hero {
   display: flex;
   flex-direction: row;
   min-height: 80vh;
@@ -103,7 +86,7 @@ img {
   /* position: relative; */
 } /* -Source:Chairs of Gio Ponti, in class workshop - */
 
-.hero-text {
+.mountain-hero-text {
   color: white;
   width: 60%;
   margin-left: 2rem;
@@ -111,7 +94,7 @@ img {
   /* position: absolute; */
 }
 
-.intro {
+.mountain-safety-intro {
   display: flex;
   flex-direction: row;
   align-items: center;
