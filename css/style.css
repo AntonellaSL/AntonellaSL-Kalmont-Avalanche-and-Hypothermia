@@ -17,21 +17,28 @@ body {
 }
 p {
 	font-size: 1.25rem;
-	margin-left: 33px;
-	margin-top: 25px;
 	color: #400000;
 }
 
-h4 {
-	color: #140B01;
-	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.15);
+h5 {
+	color: #870000;
 	font-family: Inter, sans-serif;
-	font-size: 30px;
+	font-size: 1.5rem;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	margin-left: 33px;
-	margin-top: 31px;
+	margin-bottom: 0;
+}
+
+
+h4 {
+	color: #0C6D62;
+	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.042);
+	font-family: Inter, sans-serif;
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: normal;
 	margin-bottom: 0;
 }
 
@@ -52,11 +59,10 @@ h3 {
 h2 {
 	color: #870000;
 	font-family: "Noto Serif";
-	font-size: 59px;
+	font-size: 3rem;
 	font-style: normal;
 	font-weight: 800;
 	line-height: normal;
-	margin-left: 66px;
 }
 
 
@@ -95,13 +101,14 @@ header {
 
 .navbar {
 	display: flex;
+	align-items: center;
 	width: 100%;
 	position: fixed;
     background-image: linear-gradient(white, transparent);
 	margin: 0 auto;
 	z-index: 100;
 }
-
+/*
 .navbar ul {
 	display: flex;
 	width: 100%;
@@ -111,7 +118,7 @@ header {
 	margin: 0;
 	padding-left: 248px;
 	list-style: none;
-}
+}  */  
 
 
 .navbar li{
@@ -141,6 +148,8 @@ header {
 	color: #0c6d62;
   }
 
+
+  
 
 .Bttn {
 	padding-left: 66px;
@@ -298,6 +307,7 @@ header {
 }
 
 
+
 /* NEWS AND EVENTS */  
 
 
@@ -312,15 +322,38 @@ header {
 	background-image: url(../img/news-and-events.jpg);
   }
 
+.upcoming-events{
+	margin: 4rem;
+}
+
 .main-upcoming-events{
 	display: flex;
 	background-color:#F9F8F6;
-	padding: 2rem;
-	border-radius: 0.5rem;
-	box-shadow:-0.25rem 0.25rem 0.5rem hsl(168, 70%, 12%); /* ---HSL and how to use it extract from Refactoring UI (2018), Steve Schoger and Adam Wathan, page 96.--- */
-	/* ------ add inset the the beginning is for inner shadow------- */
-
+	padding: 4rem;
 }
+
+.main-event-card{
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	flex-wrap: wrap;
+	background-color: #FEF9F3;
+	border-radius: 1rem;
+	padding: 2rem;
+	margin-top: 2rem;
+}
+
+button{
+	background-color: #0C6D62;
+	border: none;
+	padding: 1rem;
+	color: #f2ede7;
+	border-radius: 0.25rem;
+	margin-top: 2rem;
+}
+
+
+
 
 
 
