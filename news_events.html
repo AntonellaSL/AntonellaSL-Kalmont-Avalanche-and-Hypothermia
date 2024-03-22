@@ -27,17 +27,13 @@
 
 <body>
   
-  <div class="navbar">
     <nav class="navbar">
       <a href="index.html"><img class="logo" src="img/logo.png" alt="Websitelogo" width="189" height="66"/></a>
-      <ul>	
         <a href="mountain-safety.html">Mountain Safety</a>
         <a href="news_events.html">News and Events</a>
         <a href="trail-map.html">Trail Maps </a>
         <a href="about-us.html">About Us </a>
-      </ul>	
-    </nav>
-  </div> <!-- end of navigation -->
+    </nav> <!-- end of navigation -->
   
   <main>
     <div class="news-hero">
@@ -46,17 +42,13 @@
       </div>
     </div> <!-- end of hero-->
 
-      <section class="main-upcoming-events">
+      <section class="upcoming-events">
         <h2>Upcoming Events</h2>
       
-        <div class="main-event full-column">
-          <img
-          src="img/events1.jpg"
-          alt="A red sign indicanting a anvalanche prone area. It reads Avalanche Area, enter thru gate only."
-          width="537"
-          height="480"
-          />
-          <h2>Avalanche Awareness Day</h2>
+        <div class="main-event-card">
+          <h5>Monday, February 26</h5>
+          <img src="img/events1.jpg" alt="A red sign indicanting a anvalanche prone area. It reads Avalanche Area, enter thru gate only." width="537"  height="480"/>
+          <h4>Avalanche Awareness Day</h4>
           <p>
             Avalanche Canada Training courses are the national standard for
             recreational avalanche training. We've got a great line-up of webinars
@@ -67,13 +59,15 @@
           href="https://avalanche.ca/events/avalanche-canada-webinars-series-2023-24.html"
           >
           <p>Learn More >></p>
+          <button>Register Here</button>
         </a>
-      </section>
+      </div>
+  
       <!-- end of #Mainevent1 -->
       
-      <section id="MainEvent" class="full-column">
+      <div class="main-event-card">
         <img
-        src="img/events2(537x480).jpg"
+        src="img/events2.jpg"
         alt="Two individualss with red bagpacks walking thru a snow path duting the day."
         width="537"
         height="480"
@@ -88,14 +82,18 @@
         href="https://avalanche.ca/events/avalanche-canada-webinars-series-2023-24.html"
         >
         <p>Learn More >></p>
+        <button>Register Here</button>
       </a>
+    </div>
     </section>
     <!-- end of #Mainevent2 -->
     
-    <section id="SecondaryEvent" class="three-columns">
+  </section>
+
+    <section class="SecondaryEvent" class="three-columns">
       <div class="image-container">
         <img
-        src="img/seconday_event1(419x375).jpg"
+        src="img/seconday-event1.jpg"
         alt="Two individualss with walking thru a snow storm."
         width="419"
         height="375"
@@ -112,9 +110,9 @@
     </section>
     <!-- end of #Secondaryevent1 -->
     
-    <section id="SecondaryEvent" class="three-columns">
+    <section class="SecondaryEvent" class="three-columns">
       <img
-      src="img/seconday_event2(419x375).jpg"
+      src="img/seconday-event2.jpg"
       alt="Two individualss with walking thru a snow storm."
       width="419"
       height="375"
@@ -133,9 +131,9 @@
   </section>
   <!-- end of #Secondaryevent2 -->
   
-  <section id="SecondaryEvent" class="three-columns">
+  <section class="SecondaryEvent" class="three-columns">
     <img
-    src="img/seconday_event3(419x375).jpg"
+    src="img/seconday-event3.jpg"
     alt="Two individualss with walking thru a snow storm."
     width="419"
     height="375"
