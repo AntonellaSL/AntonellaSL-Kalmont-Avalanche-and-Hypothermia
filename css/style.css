@@ -6,15 +6,11 @@ body {
 
 }
 
-.container {
-	width: 100%;
-	margin: 0 auto;
-	position: fixed;
-}
+
 
 .hero {
 	background-color: #fff;
-	background-image: url("img/background.png");
+	background-image: url("..//img/background.png");
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background-size: cover;
@@ -98,19 +94,19 @@ header {
 
 }
 
-nav {
+.navbar {
 	display: flex;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-style: normal;
     width: 100%;
-    
     background-image: linear-gradient(white, transparent);
-    padding: 16px;
-
+	margin: 0 auto;
+	position: fixed;
+	z-index: 100;
 }
 
-nav ul {
+.navbar ul {
 	display: flex;
 	justify-content: center;
 	align-items: baseline;
@@ -118,31 +114,33 @@ nav ul {
 	margin: 0;
 	padding-left: 248px;
 	list-style: none;
-	
-
 }
 
 
-nav li{
+.navbar li{
 	padding-top: 12px;
 	display: inline-block;
 	margin-left: 64px;
-
-
-
 }
 
-nav a {
+.navbar a {
+	display: inline-block;
 	color: #400000;
 	font-family: Inter;
-	font-size: 20px;
+	font-size: 1rem;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
 	text-decoration: none;
+	padding: 0.25em 0.45em;
+	margin: 0;
+	flex-grow: 1;
+	flex-shrink: 1;
 }
 
-
+.navbar a:hover {
+	color: #0c6d62;
+  }
 
 
 .Bttn {
