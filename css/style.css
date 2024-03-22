@@ -96,18 +96,19 @@ header {
 
 .navbar {
 	display: flex;
+	width: 100%;
+	position: fixed;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-style: normal;
-    width: 100%;
     background-image: linear-gradient(white, transparent);
 	margin: 0 auto;
-	position: fixed;
 	z-index: 100;
 }
 
 .navbar ul {
 	display: flex;
+	width: 100%;
 	justify-content: center;
 	align-items: baseline;
 	flex-wrap: wrap;
@@ -136,6 +137,8 @@ header {
 	margin: 0;
 	flex-grow: 1;
 	flex-shrink: 1;
+	flex-basis: auto;
+	text-align: center;
 }
 
 .navbar a:hover {
