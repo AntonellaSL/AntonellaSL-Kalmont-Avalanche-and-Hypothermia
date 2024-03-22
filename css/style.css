@@ -1,0 +1,310 @@
+
+body {
+	margin: 0;
+	background-color:#fff;
+	box-sizing: border-box;
+
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+}
+
+.hero {
+	background-color: #fff;
+	background-image: url("img/background.png");
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-size: cover;
+
+}
+p {
+	font-size: 22px;
+	margin-left: 33px;
+	margin-top: 25px;
+}
+
+h4 {
+	color: #140B01;
+	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.15);
+	font-family: Inter, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-left: 33px;
+	margin-top: 31px;
+	margin-bottom: 0;
+}
+
+
+
+h3 {
+	color: #140B01;
+	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.15);
+	font-family: Inter, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-left: 66px;
+	margin-bottom: 8px;
+}
+
+h2 {
+	color: #870000;
+	font-family: "Noto Serif";
+	font-size: 59px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	margin-left: 66px;
+	
+}
+
+
+
+h1 {
+	color: #FCFAF7;
+	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.15);
+	font-family: "Noto Serif";
+	font-size: 95px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 95%; 
+	margin-left: 66px;
+	margin-top: 8px;
+	
+	}
+
+
+header {
+	
+}
+
+
+
+.Logo {
+	float: left;
+	width: 204.155px;
+	height: 54.792px;
+	flex-shrink: 0;
+	margin-left: 66px;
+	margin-top: 40;
+
+
+
+}
+
+nav {
+	display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    width: 100%;
+    
+    background-image: linear-gradient(white, transparent);
+    padding: 16px;
+
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-wrap: wrap;
+	margin: 0;
+	padding-left: 248px;
+	list-style: none;
+	
+
+}
+
+
+nav li{
+	padding-top: 12px;
+	display: inline-block;
+	margin-left: 64px;
+
+
+
+}
+
+nav a {
+	color: #400000;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-decoration: none;
+}
+
+
+
+
+.Bttn {
+	padding-left: 66px;
+}
+
+
+.button {
+	color: #FEF9F3;
+	background-color: #0c6d62;
+	font-family: Inter, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 125%; /* 27.5px */
+	padding: 11px 30px;
+	border-radius: 19px;
+	border: none;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+	margin-right: 29px;
+}
+
+
+.button:hover {
+	background-color: #0BAA98;
+}
+
+
+
+
+
+.card-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	flex-wrap: wrap;
+	margin-top: 100px ;
+}
+
+.card {
+	
+	height: 725px;
+	width: 455px;
+	background-color: #FEF9F3;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 20px;
+}
+
+.card img {
+	
+
+}
+
+
+.btn {
+	font-size: 20px;
+	padding-left: 33px;
+	padding-bottom: 38px;
+
+
+}
+
+.content {
+	color: #0C6D62;
+}
+
+
+
+
+.Q {
+	color: #FCFAF7;
+	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.15);
+	font-family: "Noto Serif";
+	font-size: 95px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 95%; 
+	margin: 0;
+}
+
+.QandA {
+	
+	margin-top: 132px;
+	padding-top: 172px;
+	padding-bottom: 172px;
+	padding-left: 66px;
+	background-image: url("img/Rectangle 27.png");
+	background-size: cover;
+}
+
+
+
+.text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+
+
+}
+
+
+
+.Answers {
+	font-size: 22px;
+}
+
+.Questions {
+	margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*About Us*/  
+
+
+
+
+
+.About-Hero {
+	background-color: #fff;
+	background-image: url("img/Rectangle 29.png");
+	padding-top: 569px;
+	padding-bottom: 50px;
+	background-size: cover;
+}
+
+.About-Container {
+	width: 1000px;
+}
+
+
+.text {
+	display: flex;
+	justify-content: center;
+
+}
+
+.About-p {
+	color: #0C6D62;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 140%;
+}
+
+
+
+
+
+
+
+
+
