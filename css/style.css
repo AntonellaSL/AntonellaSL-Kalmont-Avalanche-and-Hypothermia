@@ -3,10 +3,9 @@ body {
 	margin: 0;
 	background-color:#fff;
 	box-sizing: border-box;
-
+	font-family: "Inter", sans-serif;
+	font-style: normal;
 }
-
-
 
 .hero {
 	background-color: #fff;
@@ -17,9 +16,10 @@ body {
 
 }
 p {
-	font-size: 22px;
+	font-size: 1.25rem;
 	margin-left: 33px;
 	margin-top: 25px;
+	color: #400000;
 }
 
 h4 {
@@ -302,7 +302,29 @@ header {
 }
 
 
+/* NEWS AND EVENTS */  
 
+
+.news-hero {
+	display: flex;
+	flex-direction: row;
+	min-height: 80vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom left;
+	align-items: flex-end;
+	background-image: url(../img/news-and-events.jpg);
+  }
+
+.main-upcoming-events{
+	display: flex;
+	background-color:#F9F8F6;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	box-shadow:-0.25rem 0.25rem 0.5rem hsl(168, 70%, 12%); /* ---HSL and how to use it extract from Refactoring UI (2018), Steve Schoger and Adam Wathan, page 96.--- */
+	/* ------ add inset the the beginning is for inner shadow------- */
+
+}
 
 
 
