@@ -1,4 +1,11 @@
 
+*{
+	box-sizing: border-box; /* border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. 
+	If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. 
+	https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserverEntry/borderBoxSize */
+}
+
+/* ---- PARAGRAPH AND TITLES STYLES ---- */ 
 body {
 	margin: 0;
 	background-color:#fff;
@@ -13,11 +20,17 @@ body {
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background-size: cover;
-
 }
+
 p {
 	font-size: 1.25rem;
 	color: #400000;
+}
+
+a{
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
 }
 
 h5 {
@@ -25,11 +38,12 @@ h5 {
 	font-family: Inter, sans-serif;
 	font-size: 1.5rem;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: bolder;
 	line-height: normal;
 	margin-bottom: 0;
+	margin-right: 1.5rem;
+	text-align: center;
 }
-
 
 h4 {
 	color: #0C6D62;
@@ -41,8 +55,6 @@ h4 {
 	line-height: normal;
 	margin-bottom: 0;
 }
-
-
 
 h3 {
 	color: #140B01;
@@ -65,8 +77,6 @@ h2 {
 	line-height: normal;
 }
 
-
-
 h1 {
 	color: #FCFAF7;
 	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.15);
@@ -77,14 +87,13 @@ h1 {
 	line-height: 95%; 
 	margin-left: 66px;
 	margin-top: 8px;
-	
 	}
 
+/* --------- HEADER --------- */ 
 
 header {
 	
 }
-
 
 
 .Logo {
@@ -94,9 +103,6 @@ header {
 	flex-shrink: 0;
 	margin-left: 66px;
 	margin-top: 40;
-
-
-
 }
 
 .navbar {
@@ -149,8 +155,7 @@ header {
   }
 
 
-  
-
+/* ---------BUTTONS --------- */ 
 .Bttn {
 	padding-left: 66px;
 }
@@ -176,8 +181,18 @@ header {
 	background-color: #0BAA98;
 }
 
+.news-button{
+	background-color: #0C6D62;
+	border: none;
+	padding: 1rem;
+	color: #f2ede7;
+	border-radius: 0.25rem;
+	margin-top: 2rem;
+	font-size: 1rem;
+}
 
 
+/* --------- HOME --------- */ 
 
 
 .card-container{
@@ -199,25 +214,17 @@ header {
 }
 
 .card img {
-	
-
 }
-
 
 .btn {
 	font-size: 20px;
 	padding-left: 33px;
 	padding-bottom: 38px;
-
-
 }
 
 .content {
 	color: #0C6D62;
 }
-
-
-
 
 .Q {
 	color: #FCFAF7;
@@ -231,7 +238,6 @@ header {
 }
 
 .QandA {
-	
 	margin-top: 132px;
 	padding-top: 172px;
 	padding-bottom: 172px;
@@ -247,12 +253,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
-
-
 }
-
-
 
 .Answers {
 	font-size: 22px;
@@ -260,23 +261,10 @@ header {
 
 .Questions {
 	margin: 0;
-
 }
 
 
-
-
-
-
-
-
-
-
-/*About Us*/  
-
-
-
-
+/* ------- ABOUT US --------- */ 
 
 .About-Hero {
 	background-color: #fff;
@@ -290,11 +278,9 @@ header {
 	width: 1000px;
 }
 
-
 .text {
 	display: flex;
 	justify-content: center;
-
 }
 
 .About-p {
@@ -306,10 +292,7 @@ header {
 	line-height: 140%;
 }
 
-
-
 /* NEWS AND EVENTS */  
-
 
 .news-hero {
 	display: flex;
@@ -341,29 +324,14 @@ header {
 	padding: 2rem;
 	margin-top: 2rem;
 }
-
 .main-event-card-content{
-	display: flex;
+	
 	flex-direction: column;	
 	padding: 3rem;
-
-}
-
-button{
-	background-color: #0C6D62;
-	border: none;
-	padding: 1rem;
-	color: #f2ede7;
-	border-radius: 0.25rem;
-	margin-top: 2rem;
 }
 
 
-
-
-
-
-/* MOUNTAIN SAFETY */ 
+/* ----- MOUNTAIN SAFETY ----- */ 
 
 .mountain-safety-hero {
 	display: flex;
@@ -477,6 +445,7 @@ button{
   }
 
 
+/* -----FOOTER ----- */ 
 
 footer {
 	background-color: #870000;
