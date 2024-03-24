@@ -1,9 +1,11 @@
 
-*{
+
+
+/*{
 	box-sizing: border-box; /* border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. 
 	If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. 
 	https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserverEntry/borderBoxSize */
-}
+
 
 /* ---- PARAGRAPH AND TITLES STYLES ---- */ 
 body {
@@ -16,10 +18,11 @@ body {
 
 .hero {
 	background-color: #fff;
-	background-image: url("..//img/background.png");
-	padding-top: 200px;
-	padding-bottom: 200px;
+	background-image: url("..//img/background.png") ;
+	padding-top: 150px;
+	padding-bottom: 250px;
 	background-size: cover;
+	
 }
 
 p {
@@ -64,7 +67,7 @@ h3 {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	margin-left: 66px;
+	margin-left: 4rem;
 	margin-bottom: 8px;
 }
 
@@ -75,6 +78,7 @@ h2 {
 	font-style: normal;
 	font-weight: 800;
 	line-height: normal;
+	margin-left: 4rem;
 }
 
 h1 {
@@ -91,9 +95,6 @@ h1 {
 
 /* --------- HEADER --------- */ 
 
-header {
-	
-}
 
 
 .Logo {
@@ -103,7 +104,7 @@ header {
 	flex-shrink: 0;
 	margin-left: 66px;
 	margin-top: 40;
-}  
+}
 
 .navbar {
 	display: flex;
@@ -113,6 +114,24 @@ header {
     background-image: linear-gradient(white, transparent);
 	margin: 0 auto;
 	z-index: 100;
+}
+/*
+.navbar ul {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: baseline;
+	flex-wrap: wrap;
+	margin: 0;
+	padding-left: 248px;
+	list-style: none;
+}  */  
+
+
+.navbar li{
+	padding-top: 12px;
+	display: inline-block;
+	margin-left: 64px;
 }
 
 .navbar a {
@@ -174,7 +193,7 @@ header {
 }
 
 
-/* --------- HOME --------- */ 
+/* --------- Featured Events, Cards on Hero --------- */ 
 
 
 .card-container{
@@ -192,17 +211,25 @@ header {
 	background-color: #FEF9F3;
 	border-radius: 10px;
 	overflow: hidden;
-	margin: 20px;
+	margin: 1.3rem;
 }
 
-.card img {
+.card-content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1rem;
 }
 
 .btn {
-	font-size: 20px;
-	padding-left: 33px;
-	padding-bottom: 38px;
+	
+	font-size: 1.3rem;
+
 }
+
+
+
+
+
 
 .content {
 	color: #0C6D62;
@@ -224,7 +251,7 @@ header {
 	padding-top: 172px;
 	padding-bottom: 172px;
 	padding-left: 66px;
-	background-image: url("img/Rectangle 27.png");
+	background-image: url("..//img/Rectangle-27.png");
 	background-size: cover;
 }
 
@@ -235,29 +262,33 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin: 6rem;
 }
-
 .Answers {
 	font-size: 22px;
 }
 
 .Questions {
 	margin: 0;
-}
+} 
+
+
 
 
 /* ------- ABOUT US --------- */ 
 
 .About-Hero {
 	background-color: #fff;
-	background-image: url("img/Rectangle 29.png");
+	background-image: url("../img/Rectangle-29.png");
 	padding-top: 569px;
 	padding-bottom: 50px;
 	background-size: cover;
 }
 
 .About-Container {
-	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	margin: 6rem;
 }
 
 .text {
@@ -266,7 +297,7 @@ header {
 }
 
 .About-p {
-	color: #0C6D62;
+	color: #140B01;
 	font-family: Inter;
 	font-size: 24px;
 	font-style: normal;
@@ -274,7 +305,7 @@ header {
 	line-height: 140%;
 }
 
-/* ------- NEWS AND EVENTS ------- */  
+/* NEWS AND EVENTS */  
 
 .news-hero {
 	display: flex;
@@ -312,6 +343,7 @@ header {
 	padding: 3rem;
 }
 
+<<<<<<< HEAD
 .secondary-events{
 	display: flex;
 	flex-direction: row;
@@ -328,6 +360,8 @@ header {
 	margin: 1rem;
 }
 
+=======
+>>>>>>> parent of a62da8e (Update style.css)
 
 /* ----- MOUNTAIN SAFETY ----- */ 
 
@@ -463,11 +497,3 @@ footer {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
   }
-
-
-
-
-
-
-
-
