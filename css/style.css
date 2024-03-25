@@ -115,17 +115,7 @@ h1 {
 	margin: 0 auto;
 	z-index: 100;
 }
-/*
-.navbar ul {
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	align-items: baseline;
-	flex-wrap: wrap;
-	margin: 0;
-	padding-left: 248px;
-	list-style: none;
-}  */  
+
 
 
 .navbar li{
@@ -227,15 +217,63 @@ h1 {
 
 }
 
-
-
-
-
-
 .content {
 	color: #0C6D62;
 	margin: 0;
 }
+
+
+/* --------- ACCORDION --------- */ 
+
+.accordion-body{
+    max-width: 50rem;
+    margin: 5.6rem auto;
+    color: #400000;
+    background-color: white;
+    padding:2.8rem;
+}
+
+.accordion .container{
+	position: relative;
+	margin: 0.625rem;
+}
+
+.accordion .Questions{
+    position: relative;
+    padding: 0.625rem 0;
+    font-size: 1.5rem;
+    cursor:pointer;
+}
+
+.accordion .Questions::before{
+    content:'+';
+    color: #0C6D62;
+    position: absolute;
+    top: 50%;
+    right:-5px;
+    font-size: 2rem;
+    transform: translateY(-50%);
+}
+
+
+.accordion .Answers{
+    height: 0;
+    overflow: hidden;
+    text-align: justify;
+    width: 90%;
+    transition: height 1s;
+}
+
+.active .Answers{
+    height: auto;
+}
+
+.accordion .container.active .Questions::before{
+    content:'-';
+    font-size: 2rem;
+}
+
+
 
 .Q {
 	color: #FCFAF7;
@@ -258,7 +296,7 @@ h1 {
 }
 
 
-
+/* --------- ACCOR
 .text-container {
 	display: flex;
 	flex-direction: column;
@@ -273,6 +311,8 @@ h1 {
 .Questions {
 	margin: 0;
 } 
+
+T US --------- */ 
 
 
 
@@ -321,7 +361,9 @@ h1 {
   }
 
 .upcoming-events{
+	display: flex;
 	margin: 4rem;
+	flex-wrap: wrap;
 }
 
 .main-upcoming-events{
@@ -340,11 +382,61 @@ h1 {
 	margin-top: 2rem;
 }
 .main-event-card-content{
-	
 	flex-direction: column;	
 	padding: 3rem;
 }
+.secondary-events{
+    display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    margin: 3rem;
+	justify-content: center;
+	margin-top: 100px ;
+}
 
+.secondary-event-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    background-color: #FEF9F3;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+	flex-wrap: wrap;
+	max-width:min-content;
+}
+
+.news{
+	display: flex;
+	flex-direction: column;
+	background-image: url(../img/news-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2rem;
+}
+
+.news-title{
+	
+}
+
+.news-card-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.news-card{
+	display: flex;
+    flex-direction: row;
+    justify-content: left; 
+    background-color: #FEF9F3;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+	flex-wrap: wrap;
+	max-width:min-content;
+}
 
 /* ----- MOUNTAIN SAFETY ----- */ 
 
@@ -458,6 +550,32 @@ h1 {
 	width: 100%;
 	min-height: 50vh;
   }
+
+
+  /* ----- TRAIL MAPS ----- */  
+
+  .maps-hero {
+	display: flex;
+	flex-direction: row;
+	min-height: 80vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom left;
+	align-items: flex-end;
+	background-image: url(../img/trailmap-banner.jpg);
+  }
+
+
+.trail-map{
+	background-color: #F2EDE7;
+	padding: 2rem;
+}
+
+.maps-intro{
+	padding: 3rem;
+
+}
+
 
 
 /* -----FOOTER ----- */ 
