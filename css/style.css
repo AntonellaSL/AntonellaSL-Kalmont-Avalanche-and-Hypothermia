@@ -238,14 +238,14 @@ h1 {
 	margin: 0.625rem;
 }
 
-.accordion .Questions{
+.accordion .questions{
     position: relative;
     padding: 0.625rem 0;
     font-size: 1.5rem;
     cursor:pointer;
 }
 
-.accordion .Questions::before{
+.accordion .questions::before{
     content:'+';
     color: #0C6D62;
     position: absolute;
@@ -255,7 +255,7 @@ h1 {
     transform: translateY(-50%);
 }
 
-.accordion .Answers{
+.accordion .answers{
     height: 0;
     overflow: hidden;
     text-align: justify;
@@ -263,11 +263,11 @@ h1 {
     transition: height 1s;
 }
 
-.active .Answers{
+.active .answers{
     height: auto;
 }
 
-.accordion .container.active .Questions::before{
+.accordion .container.active .questions::before{
     content:'-';
     font-size: 2rem;
 }
@@ -568,3 +568,56 @@ footer {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
   }
+
+
+
+
+/* ---- WORKING ACCORDION----- */ 
+  
+.accordion{
+    max-width: 50rem;
+    margin: 5.6rem auto;
+    color: black;
+    background-color: white;
+    padding:2.8rem;
+}
+
+.accordion .container{
+    position: relative;
+   margin: 0.625rem;
+}
+
+.accordion .label{
+    position: relative;
+    padding: 0.625rem 0;
+    font-size: 1.5rem;
+    cursor:pointer;
+}
+
+.accordion .label::before{
+    content:'+';
+    color: black;
+    position: absolute;
+    top: 50%;
+    right:-5px;
+    font-size: 2rem;
+    transform: translateY(-50%);
+}
+
+.accordion .content{
+    height: 0;
+    overflow: hidden;
+
+    text-align: justify;
+    width: 90%;
+    transition: height 1s;
+}
+
+.active .content{
+    height: auto;
+}
+
+.accordion .container.active .label::before{
+    content:'-';
+    font-size: 2rem;
+}
