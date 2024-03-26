@@ -16,6 +16,12 @@ body {
 	font-style: normal;
 }
 
+img{ 
+	height:auto;
+	max-width:100%;
+	margin-bottom: 1rem;
+}
+
 .hero {
 	background-color: #fff;
 	background-image: url("..//img/background.png") ;
@@ -145,6 +151,24 @@ h1 {
 	padding-left: 66px;
 }
 
+.button-news{
+	background-color: #0C6D62;
+	border-radius: 0.25rem;
+	padding: 1rem;
+	color: #f2ede7;
+	margin-top: 3rem;
+	font-size: 1rem;
+}
+
+.button-maps{
+	background-color: #0C6D62;
+	border-radius: 0.25rem;
+	padding: 1rem;
+	color: #f2ede7;
+	margin: 4rem;
+	font-size: 1rem;
+}
+
 
 .button {
 	color: #FEF9F3;
@@ -164,16 +188,6 @@ h1 {
 
 .button:hover {
 	background-color: #0BAA98;
-}
-
-.news-button{
-	background-color: #0C6D62;
-	border: none;
-	padding: 1rem;
-	color: #f2ede7;
-	border-radius: 0.25rem;
-	margin-top: 2rem;
-	font-size: 1rem;
 }
 
 
@@ -207,6 +221,9 @@ h1 {
 .btn {
 	
 	font-size: 1.3rem;
+
+}
+
 
 }
 
@@ -287,29 +304,6 @@ h1 {
 	background-size: cover;
 }
 
-
-/* --------- 
-.text-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 6rem;
-}
-.Answers {
-	font-size: 22px;
-}
-
-.Questions {
-	margin: 0;
-} 
-
- --------- */ 
-
-
-
-
-/* ------- ABOUT US --------- */ 
 
 .About-Hero {
 	background-color: #fff;
@@ -407,9 +401,6 @@ h1 {
 	padding: 2rem;
 }
 
-.news-title{
-	
-}
 
 .news-card-container{
 	display: flex;
@@ -559,9 +550,16 @@ h1 {
 
 .maps-intro{
 	padding: 3rem;
+	margin: 3rem;
+	color: #0C6D62;
 
 }
 
+.paragraph-style-2 {
+	color: #0c6d62;
+	padding: 1rem;
+	width: 100%;
+  }
 
 
 /* -----FOOTER ----- */ 
