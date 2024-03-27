@@ -106,6 +106,7 @@ h1 {
 	margin-left: 4rem;
 	margin-top: 40;
 }
+/* ^the tutorial said use float, so float it is. */
 
 .navbar {
 	display: flex;
@@ -146,11 +147,11 @@ h1 {
 	color: #0c6d62;
 }
 
-
+/* source: https://www.youtube.com/watch?v=FEmysQARWFU&t=1017s&ab_channel=KevinPowell */
 
 /* ---------BUTTONS --------- */ 
 
-.Bttn {
+.bttn {
 	padding-left: 4.125rem;
 }
 
@@ -179,7 +180,7 @@ h1 {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 125%; /* 27.5px */
-	padding: 0.688rem 1.875;
+	padding: 0.688rem 1.875rem;
 	border-radius: 1.188rem;
 	border: none;
 	box-shadow: 0.125rem 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.15);
