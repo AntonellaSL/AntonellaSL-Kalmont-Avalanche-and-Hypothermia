@@ -22,8 +22,8 @@ img{
 .hero {
 	background-color: #fff;
 	background-image: url("..//img/background.png") ;
-	padding-top: 150px;
-	padding-bottom: 250px;
+	padding-top: 9.375rem;
+	padding-bottom: 15.625rem;
 	background-size: cover;
 }
 
@@ -53,7 +53,7 @@ h5 {
 
 h4 {
 	color: #0C6D62;
-	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.042);
+	text-shadow: 0.111rem 0.111rem 0.221rem rgba(0, 0, 0, 0.042);
 	font-family: Inter, sans-serif;
 	font-size: 2rem;
 	font-style: normal;
@@ -64,7 +64,7 @@ h4 {
 
 h3 {
 	color: #140B01;
-	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.15);
+	text-shadow: 0.111rem 0.111rem 0.221rem rgba(0, 0, 0, 0.15);
 	font-family: Inter, sans-serif;
 	font-size: 3rem;
 	font-style: normal;
@@ -86,7 +86,7 @@ h2 {
 
 h1 {
 	color: #FCFAF7;
-	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.15);
+	text-shadow: 0.111rem 0.111rem 0.221rem rgba(0, 0, 0, 0.15);
 	font-family: "Noto Serif";
 	font-size: 5.938rem;
 	font-style: normal;
@@ -100,8 +100,8 @@ h1 {
 
 .Logo {
 	float: left;
-	width: 204.155px;
-	height: 54.792px;
+	width: 12.76rem;
+	height: 3.425rem;
 	flex-shrink: 0;
 	margin-left: 4rem;
 	margin-top: 40;
@@ -120,7 +120,7 @@ h1 {
 
 
 .navbar li{
-	padding-top: 12px;
+	padding-top: 0.75rem;
 	display: inline-block;
 	margin-left: 4rem;
 }
@@ -151,7 +151,7 @@ h1 {
 /* ---------BUTTONS --------- */ 
 
 .Bttn {
-	padding-left: 66px;
+	padding-left: 4.125rem;
 }
 
 .button-news{
@@ -179,10 +179,10 @@ h1 {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 125%; /* 27.5px */
-	padding: 11px 30px;
-	border-radius: 19px;
+	padding: 0.688rem 1.875;
+	border-radius: 1.188rem;
 	border: none;
-	box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0.125rem 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.15);
 	margin-right: 1.8rem;
 }
 
@@ -203,10 +203,10 @@ h1 {
 
 .card {
 	
-	height: 725px;
-	width: 455px;
+	height: 45.313rem;
+	width: 28.438rem;
 	background-color: #FEF9F3;
-	border-radius: 10px;
+	border-radius: 0.625rem;
 	overflow: hidden;
 	margin: 1.3rem;
 }
@@ -236,7 +236,7 @@ h1 {
 
 .Q {
 	color: #FCFAF7;
-	text-shadow: 1.77px 1.77px 3.54px rgba(0, 0, 0, 0.15);
+	text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
 	font-family: "Noto Serif";
 	font-size: 5.938rem;
 	font-style: normal;
@@ -247,9 +247,9 @@ h1 {
 
 .QandA {
 	margin-top: 8.25rem;
-	padding-top: 172px;
-	padding-bottom: 172px;
-	padding-left: 66px;
+	padding-top: 10.75rem;
+	padding-bottom: 10.75rem;
+	padding-left: 4.125rem;
 	background-image: url("..//img/Rectangle-27.png");
 	background-size: cover;
 }
@@ -281,8 +281,8 @@ T US --------- */
 .About-Hero {
 	background-color: #fff;
 	background-image: url("../img/Rectangle-29.png");
-	padding-top: 569px;
-	padding-bottom: 50px;
+	padding-top: 35.563rem;
+	padding-bottom: 3.125rem;
 	background-size: cover;
 }
 
@@ -350,7 +350,7 @@ T US --------- */
 	flex-direction: row;
 	margin: 3rem;
 	justify-content: center;
-	margin-top: 100px ;
+	margin-top: 6.25rem ;
 }
 
 .secondary-event-card{
@@ -605,7 +605,7 @@ footer {
 	color: black;
 	position: absolute;
 	top: 50%;
-	right:-5px;
+	right:-0.313rem;
 	font-size: 2rem;
 	transform: translateY(-50%);
 }
@@ -693,7 +693,7 @@ footer {
 
 }
 
-@media (max-width:500px){
+@media (max-width: 31.25rem){
 
 	.hero-text{
 		width:auto;
