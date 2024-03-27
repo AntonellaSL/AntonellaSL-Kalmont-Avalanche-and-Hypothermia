@@ -94,7 +94,7 @@ h1 {
 	line-height: 95%; 
 	margin-left: 66px;
 	margin-top: 8px;
-	}
+}
 
 
 /* --------- HEADER --------- */ 
@@ -113,7 +113,7 @@ h1 {
 	align-items: center;
 	width: 100%;
 	position: fixed;
-    background-image: linear-gradient(white, transparent);
+	background-image: linear-gradient(white, transparent);
 	margin: 0 auto;
 	z-index: 100;
 }
@@ -137,7 +137,7 @@ h1 {
 
 .navbar a:hover {
 	color: #0c6d62;
-  }
+}
 
 
 
@@ -161,7 +161,6 @@ h1 {
 	border-radius: 0.25rem;
 	padding: 1rem;
 	color: #f2ede7;
-	margin: 4rem;
 	font-size: 1rem;
 }
 
@@ -285,7 +284,7 @@ h1 {
 	background-position: bottom left;
 	align-items: flex-end;
 	background-image: url(../img/news-and-events.jpg);
-  }
+} /* ---- Learned with James ---- */
 
 .upcoming-events{
 	display: flex;
@@ -313,34 +312,33 @@ h1 {
 	padding: 3rem;
 }
 .secondary-events{
-    display: flex;
+	display: flex;
 	flex-wrap: wrap;
-    flex-direction: row;
-    margin: 3rem;
+	flex-direction: row;
+	margin: 3rem;
 	justify-content: center;
 	margin-top: 100px ;
 }
 
 .secondary-event-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    background-color: #FEF9F3;
-    border-radius: 1rem;
-    padding: 2rem;
-    margin: 1rem;
-	flex-wrap: wrap;
-	max-width:min-content;
-}
-
-.news{
 	display: flex;
 	flex-direction: column;
-	background-image: url(../img/news-background.jpg);
+	background-color: #FEF9F3;
+	border-radius: 1rem;
+	padding: 2rem;
+	margin: 1rem;
+	flex-wrap: wrap;
+	max-width:25rem;
+}
+
+.news{ 
+	display: flex;
+	flex-direction: column;
+	background-image: url(../img/news-background.jpg); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 2rem;
-}
+} /* ---- Learned with James ---- */
 
 .news-card-container{
 	display: flex;
@@ -351,14 +349,14 @@ h1 {
 
 .news-card{
 	display: flex;
-    flex-direction: row;
-    justify-content: left; 
-    background-color: #FEF9F3;
-    border-radius: 1rem;
-    padding: 2rem;
-    margin: 1rem;
+	flex-direction: row;
+	justify-content: left; 
+	background-color: #FEF9F3;
+	border-radius: 1rem;
+	padding: 2rem;
+	margin: 1rem;
 	flex-wrap: wrap;
-	max-width:min-content;
+	max-width:25rem;
 }
 
 /* ---------- MOUNTAIN SAFETY --------- */ 
@@ -372,47 +370,48 @@ h1 {
 	background-position: bottom left;
 	align-items: flex-end;
 	background-image: url(../img/mountain-safety-banner.jpg);
-  }
+} /* ---- Learned with James ---- */
 
 .mountain-hero-text {
 	color: white;
 	width: 60%;
 	margin-left: 2rem;
 	min-width: 6rem;
-  }
-  
-  .mountain-safety-intro {
+}
+
+.mountain-safety-intro {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	padding: 3rem 6rem;
 	justify-content: space-between;
 	min-height: 20rem;
-  }
-  
-  .paragraph-style-1 {
+}
+
+.paragraph-style-1 {
 	color: #0c6d62;
 	padding: 1rem;
 	width: 45%;
-  }
+} 
 
-  .avalanche-safety {
+.avalanche-safety {
 	background-color: #f2ede7;
 	padding: 3rem;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-  }
+}
 
-  .image-width-text-overlap {
+.image-width-text-overlap {
 	width: 50%;
 	height: 100vh;
 	background-image: url(../img/avalanche-safety.png);
 	background-repeat: no-repeat;
 	background-position: center center;
-  }
-  .text-overlap {
+} /* ---- Learned with James ---- */
+
+.text-overlap {
 	width: 50%;
 	display: flex;
 	justify-content: flex-start;
@@ -422,43 +421,43 @@ h1 {
 	padding: 2rem;
 	margin-left: -15rem;
 	min-height: 23rem;
-  }
+}
 
-  .avalanche-content {
+.avalanche-content {
 	color: #0c6d62;
 	margin-left: 2rem;
-  }
-  
-  .risk-levels {
+}
+
+.risk-levels {
 	background-image: url(../img/risk-levels.jpg);
 	background-size: cover;
 	padding: 2rem;
 	min-height: 80vh;
-  }
-  
- .Hypothermia {
+} 
+
+.Hypothermia {
 	background-color: #400000;
 	padding: 4rem;
-  }
-  
- .text-hypothermia{
+}
+
+.text-hypothermia{
 	color: white;
 	margin-left: 2rem;
- }
+}
 
-  strong {
+strong {
 	color: #0c6d62;
-  }
-  
-  .risk-levels-content {
+}
+
+.risk-levels-content {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	padding: 1rem;
 	margin: 1rem;
-  }
-  
-  .risk-levels-card {
+}
+
+.risk-levels-card {
 	display: flex;
 	flex-direction: column;
 	align-items:flex-start;
@@ -469,12 +468,12 @@ h1 {
 	border-radius: 0.25rem;
 	width: 100%;
 	min-height: 40vh;
-  }
+}
 
 
-  /* ----- TRAIL MAPS ----- */  
+/* ----- TRAIL MAPS ----- */  
 
-  .maps-hero {
+.maps-hero {
 	display: flex;
 	flex-direction: row;
 	min-height: 80vh;
@@ -483,7 +482,7 @@ h1 {
 	background-position: bottom left;
 	align-items: flex-end;
 	background-image: url(../img/trailmap-banner.jpg);
-  }
+} /* ---- Learned with James ---- */
 
 .trail-map{
 	display: flex;
@@ -497,97 +496,172 @@ h1 {
 	padding: 3rem;
 	margin: 3rem;
 	color: #0C6D62;
-
+	
 }
 
 .paragraph-style-2 {
 	color: #0c6d62;
 	padding: 1rem;
 	width: 100%;
-  }
+}
 
 
-/* -----FOOTER ----- */ 
+/* ---------- FOOTER ---------- */ 
 
 footer {
 	background-color: #870000;
 	margin-top: 0px;
 	padding: 3rem;
-  }
-  
+}
+
 .footer-text {
 	font-size: 12px;
 	color: white;
 	width: 50%;
-  }
+}
 
-  .socialmedia {
+.socialmedia {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-  }
+}
 
-  .logos{
+.logos{
 	margin:0.5rem;
-  }
+}
 
 
 /* ---- WORKING ACCORDION----- */ 
+/* ---- Based on exmaple learned in class ---- */
 
 .accordion-body{
-max-width: 90rem;
-    margin: 3rem auto;
-    color: #400000;
-    background-color: white;
-    padding:2rem;
+	max-width: 90rem;
+	margin: 3rem auto;
+	color: #400000;
+	background-color: white;
+	padding:2rem;
 }
-  
+
 .accordion{
 	max-width: 90rem;
-    color: black;
-    background-color: white;
-    padding:2.8rem;
+	color: black;
+	background-color: white;
+	padding:2.8rem;
 }
 
 .accordion .container{
-    position: relative;
-   margin: 0.625rem;
+	position: relative;
+	margin: 0.625rem;
 }
 
 .accordion .questions{
-    position: relative;
-    padding: 0.625rem 0;
-    font-size: 1.5rem;
-    cursor:pointer;
+	position: relative;
+	padding: 0.625rem 0;
+	font-size: 1.5rem;
+	cursor:pointer;
 }
 
 .accordion .questions::before{
-    content:'+';
-    color: black;
-    position: absolute;
-    top: 50%;
-    right:-5px;
-    font-size: 2rem;
-    transform: translateY(-50%);
+	content:'+';
+	color: black;
+	position: absolute;
+	top: 50%;
+	right:-5px;
+	font-size: 2rem;
+	transform: translateY(-50%);
 }
 
 .accordion .answers{
-    height: 0;
-    overflow: hidden;
-
-    text-align: justify;
-    width: 90%;
-    transition: height 1s;
+	height: 0;
+	overflow: hidden;
+	
+	text-align: justify;
+	width: 90%;
+	transition: height 1s;
 }
 
 .active .answers{
-    height: auto;
+	height: auto;
 }
 
 .accordion .container.active .label::before{
-    content:'-';
-    font-size: 2rem;
+	content:'-';
+	font-size: 2rem;
 }
+
+/* ---------------- MEDIA QUERIES ----------------- */ 
+
+@media (max-width:49em){
+	.secondary-events{
+		flex-direction: column;
+	}
+
+	.news-card{
+		flex-direction: column;
+	}
+
+	.main-event-card{
+		flex-direction: column;
+	}
+
+	h1{
+		font-size: 4rem;
+	}
+
+	.maps-hero{
+		min-height: 60vw;
+	}
+
+	.news-hero{
+		min-height: 60vw;
+	}
+
+	.mountain-safety-hero{
+		min-height: 60vw;
+	}
+
+	.mountain-safety-intro {
+		flex-direction: column;
+	}
+
+	.paragraph-style-1 {
+		width: 100%;
+	} 
+
+	.risk-levels-content {
+		flex-direction: column;
+	}
+
+	.image-width-text-overlap {
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+	} /* ---- Learned with James ---- */
+	
+	.text-overlap {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.avalanche-safety {
+		flex-direction: column;
+	}
+
+	.button-maps{
+		padding: 0.5rem;
+		font-size: 0.8rem;
+	}
+
+}
+
+@media (max-width:500px){
+
+	.hero-text{
+		width:auto;
+		margin-left:0;
+	}
+}
+
 
