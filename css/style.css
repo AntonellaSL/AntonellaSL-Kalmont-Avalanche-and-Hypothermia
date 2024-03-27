@@ -163,7 +163,7 @@ h1 {
 	padding: 11px 30px;
 	border-radius: 19px;
 	border: none;
-	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.15);
 	margin-right: 1.8rem;
 }
 
@@ -415,9 +415,9 @@ T US --------- */
 	padding: 2rem;
 }
 
-.news-title{
+/* .news-title{
 	
-}
+} */
 
 .news-card-container{
 	display: flex;
@@ -429,7 +429,7 @@ T US --------- */
 .news-card{
 	display: flex;
     flex-direction: row;
-    justify-content: left; 
+    justify-content: flex-start; 
     background-color: #FEF9F3;
     border-radius: 1rem;
     padding: 2rem;
