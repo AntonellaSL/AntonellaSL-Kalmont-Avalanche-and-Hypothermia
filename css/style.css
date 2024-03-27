@@ -4,7 +4,7 @@
 	https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserverEntry/borderBoxSize */
 }
 
-/* ---- PARAGRAPH AND TITLES STYLES ---- */ 
+/* ------------ PARAGRAPH AND TITLES STYLES ------------ */ 
 body {
 	margin: 0;
 	background-color:#fff;
@@ -118,8 +118,6 @@ h1 {
 	z-index: 100;
 }
 
-
-
 .navbar li{
 	padding-top: 0.75rem;
 	display: inline-block;
@@ -149,7 +147,7 @@ h1 {
 
 /* source: https://www.youtube.com/watch?v=FEmysQARWFU&t=1017s&ab_channel=KevinPowell */
 
-/* ---------BUTTONS --------- */ 
+/* -------------------- BUTTONS -------------------- */ 
 
 .bttn {
 	padding-left: 4.125rem;
@@ -192,7 +190,7 @@ h1 {
 }
 
 
-/* --------- Featured Events, Cards on Hero --------- */ 
+/* -------------------- Featured Events, Cards on Hero -------------------- */ 
 
 .card-container{
 	display: flex;
@@ -232,7 +230,7 @@ h1 {
 	margin: 3rem;
 }
 
-/* --------- Q&A --------- */ 
+/* -------------------- Q&A -------------------- */ 
 
 
 .Q {
@@ -256,28 +254,7 @@ h1 {
 }
 
 
-/* --------- ACCOR
-.text-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 6rem;
-}
-.Answers {
-	font-size: 1.375rem;
-}
-
-.Questions {
-	margin: 0;
-} 
-
-T US --------- */ 
-
-
-
-
-/* ------- ABOUT US --------- */ 
+/* ----------------------------- ABOUT US -------------------- */ 
 
 .About-Hero {
 	background-color: #fff;
@@ -307,7 +284,7 @@ T US --------- */
 	line-height: 140%;
 }
 
-/* ------------  NEWS AND EVENTS ------------  */  
+/* -----------------------  NEWS AND EVENTS -----------------------  */  
 
 .news-hero {
 	display: flex;
@@ -317,8 +294,8 @@ T US --------- */
 	background-size: cover;
 	background-position: bottom left;
 	align-items: flex-end;
-	background-image: url(../img/news-and-events.jpg);
-} /* ---- Learned with James ---- */
+	background-image: url(../img/news-and-events.jpg); /* ---- Learned with James ---- */
+} 
 
 .upcoming-events{
 	display: flex;
@@ -368,15 +345,24 @@ T US --------- */
 .news{ 
 	display: flex;
 	flex-direction: column;
-	background-image: url(../img/news-background.jpg); 
+	background-image: url(../img/news-background.jpg); /* ---- Learned with James ---- */
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 2rem;
 }
 
-/* .news-title{
+.news-title{
+	color: #F2EDE7;
+	margin-left: 3rem;
+	margin-bottom: 0;
 	
-} */
+} 
+
+.news-subtitle{
+	color: white;
+	margin-left: 3rem;
+	margin-top: 0;
+}
 
 .news-card-container{
 	display: flex;
@@ -397,7 +383,7 @@ T US --------- */
 	max-width:25rem;
 }
 
-/* ---------- MOUNTAIN SAFETY --------- */ 
+/* ---------------- MOUNTAIN SAFETY --------------- */ 
 
 .mountain-safety-hero {
 	display: flex;
@@ -407,8 +393,8 @@ T US --------- */
 	background-size: cover;
 	background-position: bottom left;
 	align-items: flex-end;
-	background-image: url(../img/mountain-safety-banner.jpg);
-} /* ---- Learned with James ---- */
+	background-image: url(../img/mountain-safety-banner.jpg); /* ---- Learned with James ---- */
+} 
 
 .mountain-hero-text {
 	color: white;
@@ -430,7 +416,7 @@ T US --------- */
 	color: #0c6d62;
 	padding: 1rem;
 	width: 45%;
-} 
+}  /* ---- Learned with James ---- */
 
 .avalanche-safety {
 	background-color: #f2ede7;
@@ -454,12 +440,11 @@ T US --------- */
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
-	justify-content: center;
 	background: rgb(255, 255, 255);
 	padding: 2rem;
 	margin-left: -15rem;
 	min-height: 23rem;
-}
+} /* ---- Learned with James ---- */
 
 .avalanche-content {
 	color: #0c6d62;
@@ -508,8 +493,12 @@ strong {
 	min-height: 40vh;
 }
 
+.hypothermia-title{
+	color: white;
+}
 
-/* ----- TRAIL MAPS ----- */  
+
+/* ------------------- TRAIL MAPS ------------------- */  
 
 .maps-hero {
 	display: flex;
@@ -519,8 +508,8 @@ strong {
 	background-size: cover;
 	background-position: bottom left;
 	align-items: flex-end;
-	background-image: url(../img/trailmap-banner.jpg);
-} /* ---- Learned with James ---- */
+	background-image: url(../img/trailmap-banner.jpg);/* ---- Learned with James ---- */
+}
 
 .trail-map{
 	display: flex;
@@ -544,7 +533,7 @@ strong {
 }
 
 
-/* ---------- FOOTER ---------- */ 
+/* ---------------------- FOOTER ---------------------- */ 
 
 footer {
 	background-color: #870000;
