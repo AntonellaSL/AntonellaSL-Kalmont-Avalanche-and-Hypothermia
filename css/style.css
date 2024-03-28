@@ -96,7 +96,17 @@ h1 {
 	margin-top: 0.5rem;
 	}
 
-/* -------------------- HEADER -------------------- */ 
+/* --------- HEADER --------- */ 
+
+.Logo {
+	float: left;
+	width: 12.76rem;
+	height: 3.425rem;
+	flex-shrink: 0;
+	margin-left: 4rem;
+	margin-top: 40;
+}
+/* ^the tutorial said use float, so float it is. */
 
 .navbar {
 	display: flex;
@@ -135,11 +145,11 @@ h1 {
 	color: #0c6d62;
 }
 
-
+/* source: https://www.youtube.com/watch?v=FEmysQARWFU&t=1017s&ab_channel=KevinPowell */
 
 /* -------------------- BUTTONS -------------------- */ 
 
-.Bttn {
+.bttn {
 	padding-left: 4.125rem;
 }
 
